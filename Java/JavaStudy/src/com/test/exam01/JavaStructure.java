@@ -20,10 +20,13 @@ public class JavaStructure { // 클래스의 시작
         System.out.println("integer 타입 i = " + i);
         System.out.println("(Wrapper-toString) long 타입 l_value = " + Long.toString(l_value));
         System.out.println("long 타입 l_value = " + l_value);
-        System.out.println("(Wrapper-toString) double 타입 d_value = " + Long.toString(l_value));
+        System.out.println("(Wrapper-toString) double 타입 d_value = " + Double.toString(d_value));
+        System.out.println("double 타입 d_value = " + d_value);
+        System.out.println("(Wrapper-toString) float 타입 f_value = " + Float.toString(f_value));
+        System.out.println("float 타입 f_value = " + f_value);
+        System.out.println("(Wrapper-toString) char 타입 a = " + a);
         System.out.println("long 타입 l_value = " + l_value);
-        // TODO
-
+        
     }
 
     public static int sum(int a, int b) { // a와 b를 합친 값을 돌려준다.
