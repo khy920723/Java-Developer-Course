@@ -18,4 +18,5 @@ public class ArrayExam02 {
             System.out.println();
         }
     }
+    // 수정테스트
 }
